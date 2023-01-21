@@ -1,0 +1,28 @@
+{
+  "name": "vite-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext js,ts,tsx src",
+    "host": "vite --host"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@pl/ui": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^3.0.0",
+    "@pl/tsconfig": "*",
+    "@pl/tailwind-config": "*",
+    "eslint-config-planlab": "*",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  }
+}
