@@ -1,1 +1,10 @@
-module.exports = require("@pl/tailwind-config/postcss.config");
+const config = require("@pl/tailwind-config/tailwind.config");
+
+module.exports = {
+    plugins: {
+        // Specifying the config is not necessary in most cases, but it is included
+        // here to share the same config across the entire monorepo
+        tailwindcss: { config },
+        autoprefixer: {},
+    },
+};

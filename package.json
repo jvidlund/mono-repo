@@ -9,6 +9,8 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
+    "dev-vite": "turbo run dev --filter=vite-app --filter=ui",
+    "dev-sb": "turbo run dev --filter=storybook --filter=ui",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
